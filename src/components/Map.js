@@ -15,7 +15,7 @@ const Map = ({ cities }) => {
     const [lat] = useState(32.0833);
     const [zoom] = useState(7);
     // API key for MapTiler services.
-    const [API_KEY] = useState('tYGeNXinxbqLH9aGZm5O');
+   // const [API_KEY] = useState('tYGeNXinxbqLH9aGZm5O');
 
     // useEffect hook to initialize the map and update it when cities data changes.
     useEffect(() => {
