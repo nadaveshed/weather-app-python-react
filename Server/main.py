@@ -11,7 +11,7 @@ app = FastAPI()
 origins = ["*"]
 
 # OpenWeatherMap API key for weather data retrieval.
-api_key = "2c537018f2452d778bf8bfd7de917c7a"
+# api_key = "2c537018f2452d778bf8bfd7de917c7a"
 
 # Initial list of cities with their coordinates.
 cities = [
