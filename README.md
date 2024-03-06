@@ -1,3 +1,15 @@
+. כתוב צד שרת באמצעות python fastapi
+- השרת יבצע שאילתה באמצעות API של- https://openweathermap.org/  למשיכת מזג האוויר בערים עיקריות בארץ (קונפיגורציה, יש להגדיר לפחות 5 ערים)  בכל 5 דקות.
+   במידה והנפקת API Key מתעכבת יש לפתח ע"פ המפרטים שבאתר
+- השרת יתמוך בפעולת GET /weather-sites שתחזיר את רשימה עם הערים המוגדרות עם מיקום גיאוגרפי (lon/lat) והטמפרטורה הנוכחית בפורמט geo-json
+- השרת יתמוך בפעולת POST /refresh-weather לעדכון המידע בזמן אמת
+- השרת יתמוך בפעולת POST /add-site להוספה של עיר
+המידע שיועבר: שם עיר, מיקום
+
+ב. השרת יספק צד front שיפותח בטכנולוגיית web כלשהי (js / react וכו') ויכיל את היכולת הבאה :
+- הצגה של המידע על גבי מפה באמצעות ספריית maplibre
+- הוספת כפתורים על המפה שיאפשר ביצוע פעולת refresh ו add site
+
 # Weather app with python and react
 
 ## download the server file and add it to new python project
